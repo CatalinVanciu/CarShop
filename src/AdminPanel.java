@@ -135,7 +135,7 @@ public class AdminPanel extends JFrame {
 	        contentPane.add(logout);
 	        
 	        try {
-	        	Connection myConn = DriverManager.getConnection("jdbc:mysql://localhost/new_tabel", "root", "112322123");
+	        	Connection myConn = DriverManager.getConnection("jdbc:mysql://localhost/new_tabel", "root", "1234");
 				
 				Statement myStmt = myConn.createStatement();
 				
