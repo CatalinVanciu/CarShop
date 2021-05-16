@@ -109,7 +109,7 @@ public class Login extends JFrame { //interfata de login
 				}
 				else {
 					try {
-			        	Connection myConn = DriverManager.getConnection("jdbc:mysql://localhost/new_tabel", "root", "112322123");
+			        	Connection myConn = DriverManager.getConnection("jdbc:mysql://localhost/new_tabel", "root", "1234");
 						
 						Statement myStmt = myConn.createStatement();
 						Statement myStmt2 = myConn.createStatement();
