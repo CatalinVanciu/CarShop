@@ -128,7 +128,7 @@ public class Register extends JFrame {
 					
 					Connection myConn;
 					try {
-						myConn = DriverManager.getConnection("jdbc:mysql://localhost/new_tabel", "root", "112322123");
+						myConn = DriverManager.getConnection("jdbc:mysql://localhost/new_tabel", "root", "1234");
 						String query = "insert into account(Nume, Prenume, Email, Username, Password, Confirm_Password)values(?, ?, ?, ?, ?, ?)";
 		         		PreparedStatement pst = myConn.prepareStatement(query);
 		         		
